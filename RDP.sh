@@ -1,9 +1,9 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m N3LK
-sudo adduser N3LK sudo
-echo 'N3LK:0789' | sudo chpasswd
+sudo useradd -m TTIPIP
+sudo adduser TTIPIP sudo
+echo 'TTIPIP:0789' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
